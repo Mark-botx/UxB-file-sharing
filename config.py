@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "28810170"))
 API_HASH = os.environ.get("API_HASH", "d8fa6697eb16406d15015179aa641fee")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002074576309"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002517187425"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5560200410"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5119055997 7012709838 5560200410"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -45,13 +45,13 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "seturl.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "957408cc4a20afc3004f74f59e8d4647e23ad379")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/howto_open_tatelikns")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/howtoopenprmlink")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @all_botx</b>")
 try:
     ADMINS=[5560200410]
-    for x in (os.environ.get("ADMINS", "5560200410 6754286457").split()):
+    for x in (os.environ.get("ADMINS", "7012709838 5560200410 5119055997").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
